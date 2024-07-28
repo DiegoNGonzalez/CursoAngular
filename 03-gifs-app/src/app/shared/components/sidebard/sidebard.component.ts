@@ -16,4 +16,7 @@ export class SidebardComponent {
     return this.giftService.tagsHistoy;
   }
 
+  research(tag:string):void{
+    this.giftService.searchTag(tag);
+  }
 }
