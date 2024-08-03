@@ -19,7 +19,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     GifsModule,
     HttpClientModule,
-    SharedModule
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
